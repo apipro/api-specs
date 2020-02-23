@@ -1,4 +1,4 @@
-Tag Path    Method  operationId
+Tag	Path	Method	operationId
 Answers	answers	GET	getAnswers
 Answers	answers/{ids}	GET	getAnswersByIds
 Answers	answers/{id}/accept	POST	acceptAnswer
