@@ -1,15 +1,15 @@
-Tag\tPath\tMethod\toperationId
-Answers\tanswers\tGET\tgetAnswers
-Answers\tanswers/{ids}\tGET\tgetAnswersByIds
-Answers\tanswers/{id}/accept\tPOST\tacceptAnswer
-Answers\tanswers/{id}/accept/undo\tPOST\tundoAcceptAnswer
-Answers\tanswers/{ids}/comments\tGET\tgetComments
-Answers\tanswers/{id}/delete\tPOST\tdeleteAnswer
-Answers\tanswers/{id}/downvote\tPOST\tdownvoteAnswer
-Answers\tanswers/{id}/downvote/undo\tPOST\tundoDownvoteAnswer
-Answers\tanswers/{id}/edit\tPOST\teditAnswer
-Answers\tanswers/{id}/flags/options\tGET\tgetFlagOptions
-Answers\tanswers/{id}/flags/add\tPOST\tflagAnswer
-Answers\tanswers/{ids}/questions\tGET\tgetQuestionsForAnswerIds
-Answers\tanswers/{id}/upvote\tPOST\tupvoteAnswer
-Answers\tanswers/{id}/upvote/undo\tPOST\tundoUpvoteAnswer
+Tag Path    Method  operationId
+Answers	answers	GET	getAnswers
+Answers	answers/{ids}	GET	getAnswersByIds
+Answers	answers/{id}/accept	POST	acceptAnswer
+Answers	answers/{id}/accept/undo	POST	undoAcceptAnswer
+Answers	answers/{ids}/comments	GET	getComments
+Answers	answers/{id}/delete	POST	deleteAnswer
+Answers	answers/{id}/downvote	POST	downvoteAnswer
+Answers	answers/{id}/downvote/undo	POST	undoDownvoteAnswer
+Answers	answers/{id}/edit	POST	editAnswer
+Answers	answers/{id}/flags/options	GET	getFlagOptions
+Answers	answers/{id}/flags/add	POST	flagAnswer
+Answers	answers/{ids}/questions	GET	getQuestionsForAnswerIds
+Answers	answers/{id}/upvote	POST	upvoteAnswer
+Answers	answers/{id}/upvote/undo	POST	undoUpvoteAnswer
