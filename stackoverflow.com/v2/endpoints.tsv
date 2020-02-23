@@ -1,0 +1,15 @@
+Tag\tPath\tMethod\toperationId
+Answers\tanswers\tGET\tgetAnswers
+Answers\tanswers/{ids}\tGET\tgetAnswersByIds
+Answers\tanswers/{id}/accept\tPOST\tacceptAnswer
+Answers\tanswers/{id}/accept/undo\tPOST\tundoAcceptAnswer
+Answers\tanswers/{ids}/comments\tGET\tgetComments
+Answers\tanswers/{id}/delete\tPOST\tdeleteAnswer
+Answers\tanswers/{id}/downvote\tPOST\tdownvoteAnswer
+Answers\tanswers/{id}/downvote/undo\tPOST\tundoDownvoteAnswer
+Answers\tanswers/{id}/edit\tPOST\teditAnswer
+Answers\tanswers/{id}/flags/options\tGET\tgetFlagOptions
+Answers\tanswers/{id}/flags/add\tPOST\tflagAnswer
+Answers\tanswers/{ids}/questions\tGET\tgetQuestionsForAnswerIds
+Answers\tanswers/{id}/upvote\tPOST\tupvoteAnswer
+Answers\tanswers/{id}/upvote/undo\tPOST\tundoUpvoteAnswer
